@@ -1,0 +1,98 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+h2, h3 {
+    /* position :fixed; */
+    color: rgba(4, 23, 77, 0.87);
+    font-family: cursive;
+    font-style: italic;
+}
+header h1 {
+    text-align: left;
+    font-size: 45px;
+    color: rgba(4, 23, 77, 0.87);
+    font-family: cursive;
+    font-style: italic;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.listItems ul li button,.lost-btn,
+.found-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.lost-btn {
+    background-color: #ff5757;
+    color: white;
+}
+
+.found-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.lost-btn:hover,
+.found-btn:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3)
+        /* border:2px solid rgb(0, 0, 0); */
+}
+
+.search {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search input {
+
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search button {
+    padding: 10px;
+    background-color: rgba(4, 23, 77, 0.87);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list {
+    padding: 20px;
+    margin-top: 20px;
+}
